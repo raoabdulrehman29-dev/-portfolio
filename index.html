@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Rehman | Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/particles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="neon-text">AR</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="assets/CV_Abdul_Rehman.pdf" class="btn-cv" download><i class="fas fa-download"></i> CV</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h4 class="greeting">Hello, I'm</h4>
+                <h1 class="name">Abdul <span class="neon-text">Rehman</span></h1>
+                <h2 class="title">I'm a <span class="typed-text" id="typed"></span><span class="cursor">|</span></h2>
+                <p class="desc">Building digital experiences with HTML, CSS, PHP & JavaScript</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/raoabdulrehman29-dev" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abdul-rehman-25ab4a378/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:abdulrehmanns1229@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+923191087089"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <pre><code>// Web Developer
+const skills = {
+    frontend: ['HTML5', 'CSS3', 'JavaScript'],
+    backend: ['PHP', 'Laravel', 'MySQL'],
+    tools: ['Git', 'VS Code', 'Bootstrap']
+};
+status = 'Seeking Internship';
+motivation = 'Always Learning 💻';</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="neon-text">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Abdul Rehman">
+                    <div class="image-border"></div>
+                </div>
+                <div class="about-text">
+                    <h3>Web Developer & PHP Specialist</h3>
+                    <p>Computer Science graduate with 6 months of hands-on experience in PHP & Laravel framework. Passionate about building responsive web applications and continuously learning new technologies.</p>
+                    
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Abdul Rehman</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Lahore, Pakistan</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">abdulrehmanns1229@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone:</span>
+                            <span class="info-value">+92 319 1087089</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Degree:</span>
+                            <span class="info-value">Bachelor of Computer Science</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Status:</span>
+                            <span class="info-value">Seeking Internship</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="0">0</span>
+                            <span class="stat-text">Months Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="8">0</span>
+                            <span class="stat-text">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="3">0</span>
+                            <span class="stat-text">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="neon-text">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML5</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CSS3</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="60"></div>
+                        </div>
+                        <span class="skill-percent">60%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Bootstrap</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">PHP</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="60"></div>
+                        </div>
+                        <span class="skill-percent">60%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Laravel</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="20"></div>
+                        </div>
+                        <span class="skill-percent">20%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">MySQL</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="0"></div>
+                        </div>
+                        <span class="skill-percent">0%</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Git & GitHub</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="65"></div>
+                        </div>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">VS Code</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Figma</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="50"></div>
+                        </div>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Chrome DevTools</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="20"></div>
+                        </div>
+                        <span class="skill-percent">40%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My <span class="neon-text">Projects</span></h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/task-management.jpg" alt="Task Management System">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML,CSS,JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Employee Task Management System</h3>
+                        <p>Complete task management system with user authentication, task assignment, tracking, and reporting features.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/E-BookMart.jpg" alt="E-BookMart">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML,CCS,JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Bookmart Platform</h3>
+                        <p>Full-featured e-commerce platform with Books catalog, shopping cart and admin dashboard.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/Auto-Bazar.jpg" alt="Auto-Bazar">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Auto-Bazar</h3>
+                        <p>A Platform that offers user to Sale os purchase cars with a Seprate Admin panel to controll adds.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+           
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/expense-tracker.jpg" alt="Expense Tracker">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>Charts.js</span>
+                                <span>Local Storage</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Expense Tracker</h3>
+                        <p>Personal finance management tool with expense categorization, monthly reports, and data visualization.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/blog.jpg" alt="Blogging Platform">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Admin Panel</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Blogging Platform</h3>
+                        <p>Content management system for blogging with user registration, post creation, commenting, and admin controls.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+              
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/portfolio.jpg" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Responsive portfolio website with dark theme, animations, and interactive elements to showcase projects.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & <span class="neon-text">Education</span></h2>
+            <div class="timeline">
+                
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 (6 months)</div>
+                    <div class="timeline-content">
+                        <h3>Front-End Developer</h3>
+                        <h4>Intelligence Training & Solutions, Chunian</h4>
+                        <ul>
+                            <li>Worked on multiple client projects delivering web solutions</li>
+                            <li>Improved application performance and user experience</li>
+                            <li>Technologies: HTML, CSS, JavaScript, MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Education -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Computer Science</h3>
+                        <h4>University of Punjab, Lahore</h4>
+                        <p>Relevant Coursework: Web Programming, Database Management, Software Design, OOP, Data Structures</p>
+                    </div>
+                </div>
+                
+                <!-- Certification -->
+                <div class="timeline-item">
+                    <div class="timeline-date">May 2024</div>
+                    <div class="timeline-content">
+                        <h3>Front-End Web Development Certification</h3>
+                        <h4>Intelliage Training Center</h4>
+                        <p>6-month intensive course covering HTML, CSS, Bootstrap, JavaScript with hands-on projects</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="neon-text">Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Lahore, Punjab, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>abdulrehmanns1229@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Call / WhatsApp</h3>
+                            <p>+92 319 1087089</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/abdul-rehman-25ab4a378</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="neon-text">AR</span>
+                </div>
+                <p>Web Developer specializing in PHP, Laravel, and modern frontend technologies</p>
+                <div class="footer-social">
+                    <a href="https://github.com/raoabdulrehman29-dev" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abdul-rehman-25ab4a378/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:abdulrehmanns1229@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/923191087089" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Abdul Rehman. All Rights Reserved.</p>
+                    <p>Seeking Web Development Internship | PHP | Laravel | JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/particles.js"></script>
+</body>
+</html>
